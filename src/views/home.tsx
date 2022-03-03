@@ -22,7 +22,7 @@ function Home() {
               <div className="flex justify-center items-center flex-wrap gap-8 sm:gap-0 pt-8">
                 <div>
                   <a
-                    className="p-4 m-8 btn text-white bg-purple-400 hover:bg-purple-500 w-full"
+                    className="p-4 m-8 btn text-white bg-purple-400 hover:bg-purple-500 w-full rounded"
                     href="#new-book"
                   >
                     Add new book
@@ -30,7 +30,7 @@ function Home() {
                 </div>
                 <div>
                   <a
-                    className="p-4 m-8 btn text-white bg-gray-900 hover:bg-gray-800 w-full "
+                    className="p-4 m-8 btn text-white bg-gray-900 hover:bg-gray-800 w-full rounded"
                     href="#all-books"
                   >
                     See all your books

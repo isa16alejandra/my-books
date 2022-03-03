@@ -35,7 +35,7 @@ function BookCard(props: Props) {
           <p className="text-gray-700 text-sm font-light pt-6">{book.review}</p>
 
           <button
-            className="border-black border-2 rounded-lg px-3 text-gray-700 font-semibold mt-6 mb-6"
+            className="border-black border-2 px-3 rounded text-gray-700 font-semibold mt-6 mb-6"
             onClick={() => {
               handleOpenInfo(index);
             }}
