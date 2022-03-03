@@ -1,7 +1,6 @@
 import 'react-toastify/dist/ReactToastify.css';
 import React from 'react';
 
-import Footer from './componets/footer';
 import Header from './componets/header';
 import { FetchContextProvider } from './context/fetchContext';
 import AllBooks from './views/allBooks';
@@ -20,7 +19,6 @@ function App() {
           <NewBook />
           <AllBooks />
         </div>
-        <Footer />
       </FetchContextProvider>
     </div>
   );
