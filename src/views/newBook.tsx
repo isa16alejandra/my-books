@@ -1,20 +1,21 @@
 import React, { useContext, useRef, useState } from 'react';
+import {
+  HiOutlineAnnotation,
+  HiOutlineBookmark,
+  HiOutlineBookOpen,
+  HiOutlineCalendar,
+  HiOutlineChevronDoubleDown,
+  HiOutlineLightBulb,
+  HiOutlinePhotograph,
+  HiOutlineStar,
+  HiOutlineUser,
+} from 'react-icons/hi';
+
 import InputText from '../componets/inputs/inputText';
 import InputTextArea from '../componets/inputs/inputTextArea';
-import {
-  HiOutlineLightBulb,
-  HiOutlineCalendar,
-  HiOutlineStar,
-  HiOutlineBookOpen,
-  HiOutlineBookmark,
-  HiOutlineUser,
-  HiOutlineAnnotation,
-  HiOutlineChevronDoubleDown,
-  HiOutlinePhotograph,
-} from 'react-icons/hi';
 import Rating from '../componets/raiting';
-import { INITIAL_RATING } from '../utils/constanst';
 import { FetchContext } from '../context/fetchContext';
+import { INITIAL_RATING } from '../utils/constanst';
 
 function NewBook() {
   const { submitBook } = useContext(FetchContext);

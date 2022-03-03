@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 function InputTextArea(props: any) {
   const { labelText, placeholder, value, id, onChange, newRef, rows, noChange } = props;

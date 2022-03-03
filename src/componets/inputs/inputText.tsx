@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 function InputText(props: any) {
-  const { labelText, placeholder, value, id, onChange, newRef, type, noChange } = props;
+  const { labelText, placeholder, value, onChange, newRef, type, noChange } = props;
   return (
     <label className="block">
       {labelText && <span className="text-base font-thin italic">{labelText}</span>}

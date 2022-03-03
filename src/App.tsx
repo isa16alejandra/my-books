@@ -1,13 +1,14 @@
+import 'react-toastify/dist/ReactToastify.css';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Footer from './componets/footer';
 import Header from './componets/header';
+import { FetchContextProvider } from './context/fetchContext';
+import AllBooks from './views/allBooks';
 import Home from './views/home';
 import NewBook from './views/newBook';
-import { FetchContextProvider } from './context/fetchContext';
-import 'react-toastify/dist/ReactToastify.css';
-import AllBooks from './views/allBooks';
-import Footer from './componets/footer';
+
+import './App.css';
 
 function App() {
   return (
